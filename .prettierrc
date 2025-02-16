@@ -1,0 +1,33 @@
+{
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "<TYPES>^(react/(.*)$)|^(react$)|^(react-native(.*)$)",
+    "<TYPES>^(next/(.*)$)|^(next$)",
+    "<TYPES>^(@nestjs/(.*)$)",
+    "<TYPES>^(discord.js)",
+    "<TYPES>",
+    "",
+    "^(react/(.*)$)|^(react$)|^(react-native(.*)$)",
+    "^(next/(.*)$)|^(next$)",
+    "^(@nestjs/(.*)$)",
+    "^(discord.js)",
+    "necord",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@workspace/(.*)$",
+    "",
+    "^@/(.*)$|^@$",
+    "",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": [
+    "typescript",
+    "jsx",
+    "classProperties",
+    "decorators-legacy"
+  ],
+  "importOrderTypeScriptVersion": "5.0.0",
+  "singleQuote": true,
+  "semi": false
+}

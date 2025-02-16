@@ -1,0 +1,40 @@
+{
+  "name": "sort-imports",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "dev": "nest start --watch",
+    "format": "prettier --write src/**/*.ts",
+    "start": "nest start"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.9",
+    "@nestjs/core": "^11.0.9",
+    "discord.js": "^14.18.0",
+    "necord": "^6.8.7",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.20.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@nestjs/cli": "^11.0.2",
+    "@nestjs/schematics": "^11.0.0",
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.10.16",
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.1",
+    "source-map-support": "^0.5.21",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  }
+}
